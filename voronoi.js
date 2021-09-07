@@ -8,7 +8,7 @@ var VoronoiDemo = {
 
     init: function() {
         this.canvas = document.getElementById('voronoiCanvas');
-        this.randomSites(400,true);
+        this.randomSites(2000,true);
         this.render();
         },
 
